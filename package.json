@@ -1,0 +1,19 @@
+{
+  "name": "savedata01",
+  "version": "1.0.0",
+  "description": "This is the data saver by Emmanuel G",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "saver",
+    "project"
+  ],
+  "author": "Emmanuel Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

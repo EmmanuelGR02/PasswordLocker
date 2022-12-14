@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Password Locker</title>
+        <script src="MainPage.js"></script>
+        <link rel="stylesheet" href="StyleMainP.css">
+    </head>
+
+    <body>
+
+        <center><h1 class="mainTitle">PASSWORD LOCKER</h1></center>
+        <hr class="mainTitleHr">
+        <br>
+        <h5 style="color: white;" id="latitude"></h5>
+        <h5 style="color: white;" id="longitude"></h5>
+
+        <center><form class="form">
+
+            <div class="logInBox">
+
+                <h1 style="margin-bottom: -7px;">LOG IN!</h1>
+                <hr style="margin-bottom: 15px;">
+
+                <label for="username"><b style="font-size: 20px;">USERNAME</b></label>
+                <br>
+                <input id="uName" class="uNameStyle" type="text" placeholder="Enter Username" name="username" required>
+                <br>
+                <label for="password"><b style="font-size: 20px;">PASSWORD</b></label>
+                <br>
+                <input id="pswd" class="pswdStyle" type="password" placeholder="Enter Password" name="password" required>
+                <br>
+                <button onclick="saveData()" id="goBtn" type="submit" class="goBtn"><b>GO!</b></button>
+
+            </div>
+
+        </form></center>
+
+    </body>
+
+</html>
