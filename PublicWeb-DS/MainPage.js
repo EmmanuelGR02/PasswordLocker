@@ -1,6 +1,6 @@
 
 async function saveData() {
-            
+    // get username and password from placeholders
     let username = document.getElementById('uName').value;
     let password = document.getElementById('pswd').value;
     
@@ -17,14 +17,3 @@ async function saveData() {
     console.log(json);
 }
 
-
-// gets username
-function getUsername() {
-
-}
-
-
-// gets password
-function getPassword() {
-
-}
