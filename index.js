@@ -2,7 +2,8 @@ const express = require('express'); // basically like an inport statement
 const datastore = require('nedb'); // imports the nedb database so it is required
 const app = express(); // holds the whole node express library
 
-app.listen(3000, () => console.log('Listening at 3000')); // listens to a port (a unique number at which we listen)
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log('Listening at ' + port)); // listens to a port (a unique number at which we listen)
 app.use(express.static('PublicWeb-DS')); // Takes in a folder or file name (which is static, like a html file)
 
 app.use(express.json({limit: '1mb'})); // helps the server understand incoming data that is in json format
