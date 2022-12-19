@@ -1,5 +1,6 @@
 const express = require('express'); // basically like an inport statement 
 const datastore = require('nedb'); // imports the nedb database so it is required
+require('dotenv').config();
 const app = express(); // holds the whole node express library
 
 const port = process.env.PORT || 3000;
