@@ -11,7 +11,6 @@ app.use(express.json({limit: '1mb'})); // helps the server understand incoming d
 
 const database = new datastore('database.db'); //creates a database with given name file
 database.loadDatabase(); // creates the file if its not already created
-database.insert({name: 'emmanuel', status: 'chilling'})
 
 // post request. specify the adress
 // request - holds everything that's contained within that request, (all the data that is being sent)
