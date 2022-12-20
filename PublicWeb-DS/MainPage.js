@@ -18,7 +18,7 @@ async function saveData() {
             body: new URLSearchParams(formData).toString()
             //body: JSON.stringify(data) // where we package all of the data
         };
-        const response = await fetch('/api', options);
+        const response = await fetch('/', options);
         const json = await response.json();
         console.log(json);
     };
